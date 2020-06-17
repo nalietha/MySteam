@@ -1,6 +1,6 @@
 ﻿namespace SteamLike
 {
-    partial class Form1
+    partial class SteamLike
     {
         /// <summary>
         /// Required designer variable.
@@ -266,7 +266,6 @@
             this.btnSearchForGames.TabIndex = 17;
             this.btnSearchForGames.Text = "Search";
             this.btnSearchForGames.UseVisualStyleBackColor = true;
-            this.btnSearchForGames.Click += new System.EventHandler(this.btnSearchForGames_Click);
             // 
             // btnAddGame
             // 
@@ -315,11 +314,11 @@
             this.lbGameDisplay.Size = new System.Drawing.Size(153, 404);
             this.lbGameDisplay.TabIndex = 12;
             // 
-            // Form1
+            // Default
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(987, 554);
+            this.ClientSize = new System.Drawing.Size(998, 554);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.lblSearchingStatus);
             this.Controls.Add(this.linkLabel1);
@@ -332,8 +331,8 @@
             this.Controls.Add(this.lblWelcomeMessage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbGameDisplay);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Default";
+            this.Text = "MySteam";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbGameImage)).EndInit();
